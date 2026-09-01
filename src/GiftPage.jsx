@@ -6,11 +6,11 @@ import WashingMachine from "./images/registryImages/WashingMachine.png";
 import SolarFan from "./images/registryImages/SolarFan.png";
 import MicroWave from "./images/registryImages/Microwave.png";
 import SmartTv from "./images/registryImages/SmartTv.png";
-import UtensilsSet from "./images/registryImages/UtensilsSet.png";
+// import UtensilsSet from "./images/registryImages/UtensilsSet.png";
 import InverterAc from "./images/registryImages/InverterAc.png";
 import BinatoneIron from "./images/registryImages/BinatoneIron.png";
 import IronSkillet from "./images/registryImages/IronSkillet.png";
-import IronCookware from "./images/registryImages/IronCookware.png";
+// import IronCookware from "./images/registryImages/IronCookware.png";
 import StorageBowl from "./images/registryImages/StorageBowl.png";
 import PowerStation from "./images/registryImages/PowerStation.png";
 import StainlessSteel from "./images/registryImages/StainlessSteel.png";
@@ -52,13 +52,13 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/tcl-55-inches-uhd-4k-google-smart-tv-55v6b-1-year-warranty-402815548.html",
   },
-  {
-    src: UtensilsSet,
-    alt: "Utensils-Set-Image",
-    title: "Silicone Cooking Utensils Set",
-    jumiaLink:
-      "https://www.jumia.com.ng/kitcha-12pcs-silicone-cooking-utensils-set-for-nonstick-cookware-230c-heat-resistant-kitchen-utensil-set-with-wooden-handle-spatula-turner-spoon-tongs-whisk-419125663.html",
-  },
+  // {
+  //   src: UtensilsSet,
+  //   alt: "Utensils-Set-Image",
+  //   title: "Silicone Cooking Utensils Set",
+  //   jumiaLink:
+  //     "https://www.jumia.com.ng/kitcha-12pcs-silicone-cooking-utensils-set-for-nonstick-cookware-230c-heat-resistant-kitchen-utensil-set-with-wooden-handle-spatula-turner-spoon-tongs-whisk-419125663.html",
+  // },
   {
     src: InverterAc,
     alt: "InverterAc-Image",
@@ -80,13 +80,13 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/kitcha-cast-iron-skillet-3-piece-set-heavy-duty-16cm-20cm-26cm-pans-for-frying-saute-cooking-pizza-more-419120533.html",
   },
-  {
-    src: IronCookware,
-    alt: "Iron-Cookware-Image",
-    title: "Enamelled Cast Iron Cookware Set: 5pcs",
-    jumiaLink:
-      "https://www.jumia.com.ng/generic-enamelled-cast-iron-cookware-set-5pcs-420174680.html",
-  },
+  // {
+  //   src: IronCookware,
+  //   alt: "Iron-Cookware-Image",
+  //   title: "Enamelled Cast Iron Cookware Set: 5pcs",
+  //   jumiaLink:
+  //     "https://www.jumia.com.ng/generic-enamelled-cast-iron-cookware-set-5pcs-420174680.html",
+  // },
   {
     src: StorageBowl,
     alt: "Glass-Storage-Bowl-Image",
@@ -126,6 +126,13 @@ const GiftPage = () => {
             Your presence is already more than enough. But if you’d like to give
             us something for our new chapter, we’ve created a simple registry.
           </p>
+        </section>
+
+        <section className="delivery-address">
+        <h2 className="delivery-title"> Delivery Address</h2>
+        <p><span className="location">Location: </span> Lagos State</p>
+        <p><span className="location">Address: </span>31, Ladoke Akintola, Ikeja GRA</p>
+        <p><span className="location">Phone Number: </span> 08060179099</p>
         </section>
 
         <section className="gift-card-section">

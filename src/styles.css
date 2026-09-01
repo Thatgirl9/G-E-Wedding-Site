@@ -529,6 +529,24 @@ footer {
   opacity: 0.75;
 }
 
+.delivery-address{
+  background: var(--cream);
+  border: 1px solid var(--line);
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 16px;
+}
+
+.delivery-title{
+  font-size: 20px;
+  font-weight:800;
+  font-family: var(--sans);
+}
+
+.location{
+  font-weight:600;
+}
+
 .gift-card-section {
   padding: 12vw 4vw;
   display: grid;
