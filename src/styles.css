@@ -299,6 +299,11 @@ em {
   border-left: 1px dashed var(--wine);
 }
 
+.zoom-info-value{
+  font-size:16px;
+  font-weight: 600;
+}
+
 .small-note,
 .small-note-p {
   font-family: var(--serif);
