@@ -4,17 +4,13 @@ import { Link } from "react-router-dom";
 import FreezerImage from "./images/registryImages/FreezerImage.png";
 import WashingMachine from "./images/registryImages/WashingMachine.png";
 import SolarFan from "./images/registryImages/SolarFan.png";
-import MicroWave from "./images/registryImages/Microwave.png";
 import SmartTv from "./images/registryImages/SmartTv.png";
-// import UtensilsSet from "./images/registryImages/UtensilsSet.png";
 import InverterAc from "./images/registryImages/InverterAc.png";
-import BinatoneIron from "./images/registryImages/BinatoneIron.png";
 import IronSkillet from "./images/registryImages/IronSkillet.png";
-// import IronCookware from "./images/registryImages/IronCookware.png";
+import IronCookware from "./images/registryImages/IronCookware.png";
 import StorageBowl from "./images/registryImages/StorageBowl.png";
 import PowerStation from "./images/registryImages/PowerStation.png";
 import StainlessSteel from "./images/registryImages/StainlessSteel.png";
-
 
 const registryItems = [
   {
@@ -38,13 +34,7 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/solar-fan-18-rechargeable-with-solar-panel-standing-fan-compare-with-binatone-lumin-mpg11493548.html",
   },
-  {
-    src: MicroWave,
-    alt: "Microwave-Image",
-    title: "Hisense 20 Litres Microwave",
-    jumiaLink:
-      "https://www.jumia.com.ng/hisense-20-litres-microwave-h20mows14-white-with-1-year-warranty-400871962.html",
-  },
+
   {
     src: SmartTv,
     alt: "Tv-Image",
@@ -52,13 +42,7 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/tcl-55-inches-uhd-4k-google-smart-tv-55v6b-1-year-warranty-402815548.html",
   },
-  // {
-  //   src: UtensilsSet,
-  //   alt: "Utensils-Set-Image",
-  //   title: "Silicone Cooking Utensils Set",
-  //   jumiaLink:
-  //     "https://www.jumia.com.ng/kitcha-12pcs-silicone-cooking-utensils-set-for-nonstick-cookware-230c-heat-resistant-kitchen-utensil-set-with-wooden-handle-spatula-turner-spoon-tongs-whisk-419125663.html",
-  // },
+
   {
     src: InverterAc,
     alt: "InverterAc-Image",
@@ -66,27 +50,14 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/tcl-savein-ai-inverter-1.5hp-ac-419677012.html",
   },
+
   {
-    src: BinatoneIron,
-    alt: "BinatoneIron-Image",
-    title: "Binatone Steam Iron",
+    src: IronCookware,
+    alt: "Iron-Cookware-Image",
+    title: "Enamelled Cast Iron Cookware Set: 5pcs",
     jumiaLink:
-      "https://www.jumia.com.ng/smoother-gliding-steam-iron-si-1605-blue-2-years-warranty-binatone-mpg10684125.html",
+      "https://www.jumia.com.ng/generic-enamelled-cast-iron-cookware-set-5pcs-420174680.html",
   },
-  {
-    src: IronSkillet,
-    alt: "IronSkillet-Image",
-    title: "Cast Iron Skillet 3-Piece Set",
-    jumiaLink:
-      "https://www.jumia.com.ng/kitcha-cast-iron-skillet-3-piece-set-heavy-duty-16cm-20cm-26cm-pans-for-frying-saute-cooking-pizza-more-419120533.html",
-  },
-  // {
-  //   src: IronCookware,
-  //   alt: "Iron-Cookware-Image",
-  //   title: "Enamelled Cast Iron Cookware Set: 5pcs",
-  //   jumiaLink:
-  //     "https://www.jumia.com.ng/generic-enamelled-cast-iron-cookware-set-5pcs-420174680.html",
-  // },
   {
     src: StorageBowl,
     alt: "Glass-Storage-Bowl-Image",
@@ -101,7 +72,7 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/hithium-heroee-2kwh-portable-power-supply-power-station-for-home-backup-outdoor-411309791.html",
   },
-   {
+  {
     src: StainlessSteel,
     alt: "Stainless-Steel-Cookware-Image",
     title: "Tri-Ply Set Durable Versatile Stainless Steel Cookware Set",
@@ -129,11 +100,20 @@ const GiftPage = () => {
         </section>
 
         <section className="delivery-address">
-        <p className="delivery-instructions">For delivery of the gift items, please use the following address:</p>  
-        <h2 className="delivery-title"> Delivery Address</h2>
-        <p><span className="location">Location: </span> Lagos State</p>
-        <p><span className="location">Address: </span>31, Ladoke Akintola, Ikeja GRA</p>
-        <p><span className="location">Phone Number: </span> 08060179099</p>
+          <p className="delivery-instructions">
+            For delivery of the gift items, please use the following address:
+          </p>
+          <h2 className="delivery-title"> Delivery Address</h2>
+          <p>
+            <span className="location">Location: </span> Lagos State
+          </p>
+          <p>
+            <span className="location">Address: </span>31, Ladoke Akintola,
+            Ikeja GRA
+          </p>
+          <p>
+            <span className="location">Phone Number: </span> 08060179099
+          </p>
         </section>
 
         <section className="gift-card-section">
