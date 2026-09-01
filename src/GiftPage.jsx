@@ -129,6 +129,7 @@ const GiftPage = () => {
         </section>
 
         <section className="delivery-address">
+        <p className="delivery-instructions">For delivery of the gift items, please use the following address:</p>  
         <h2 className="delivery-title"> Delivery Address</h2>
         <p><span className="location">Location: </span> Lagos State</p>
         <p><span className="location">Address: </span>31, Ladoke Akintola, Ikeja GRA</p>

@@ -543,6 +543,11 @@ footer {
   font-family: var(--sans);
 }
 
+.delivery-instructions{
+  font-size: 16px;
+  font-family: var(--sans);
+}
+
 .location{
   font-weight:600;
 }
