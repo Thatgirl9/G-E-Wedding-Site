@@ -671,6 +671,13 @@ footer {
     text-align: center;
   }
 
+  .button-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .registry-account {
     display: none;
   }

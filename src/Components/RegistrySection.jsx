@@ -63,9 +63,12 @@ const RegistrySection = () => {
             </div>
           </div>
 
+        <div className="button-mobile">
           <Link to="/gift" className="button">
             Visit our gift page
           </Link>
+        </div>
+          
         </div>
       </div>
       <div className="registry-account">
