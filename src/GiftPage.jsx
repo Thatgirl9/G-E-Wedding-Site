@@ -11,6 +11,18 @@ import IronCookware from "./images/registryImages/IronCookware.png";
 import StorageBowl from "./images/registryImages/StorageBowl.png";
 import PowerStation from "./images/registryImages/PowerStation.png";
 import StainlessSteel from "./images/registryImages/StainlessSteel.png";
+import PremiumGlassCup from "./images/registryImages/PremiumGlassCup.png";
+import FoodProcessorSteel from "./images/registryImages/FoodProcessorSteel.png";
+import ChampagneGlass from "./images/registryImages/ChampagneGlass.png";
+import BreadToaster from "./images/registryImages/BreadToaster.png";
+import FoodProcessorBlender from "./images/registryImages/FoodProcessorBlender.png";
+import PortableSteamer from "./images/registryImages/PortableSteamer.png";
+import BorosilicateGlass from "./images/registryImages/BorosilicateGlass.png";
+
+
+
+
+
 
 const registryItems = [
   {
@@ -50,14 +62,6 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/tcl-savein-ai-inverter-1.5hp-ac-419677012.html",
   },
-
-  {
-    src: IronCookware,
-    alt: "Iron-Cookware-Image",
-    title: "Enamelled Cast Iron Cookware Set: 5pcs",
-    jumiaLink:
-      "https://www.jumia.com.ng/generic-enamelled-cast-iron-cookware-set-5pcs-420174680.html",
-  },
   {
     src: StorageBowl,
     alt: "Glass-Storage-Bowl-Image",
@@ -79,6 +83,69 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/oraimo-home-tri-ply-set-durable-versatile-stainless-steel-cookware-set-419530024.html",
   },
+   {
+    src: PremiumGlassCup,
+    alt: "Premium Glass Cup Set-Image",
+    title: "Premium Glass Cup Set",
+    jumiaLink:
+      "https://www.jumia.com.ng/premium-glass-cup-set-6-pieces-66108859.html",
+  },
+   {
+    src: FoodProcessorSteel,
+    alt: "Food Processor with Stainless Steel Bowl-Image",
+    title: "Food Processor with Stainless Steel Bowl",
+    jumiaLink:
+      "https://www.jumia.com.ng/raf-r.7032-1000w-food-processor-3l-capacity-with-stainless-steel-bowl-418214854.html",
+  },
+   {
+    src: ChampagneGlass,
+    alt: "Slim Stemmed Champagne Glasses-Image",
+    title: "Slim Stemmed Champagne Glasses",
+    jumiaLink:
+      "https://www.jumia.com.ng/generic-6-pcs-slim-stemmed-champage-glasses-419274763.html",
+  },
+   {
+    src: BreadToaster,
+    alt: "Bread Toaster/Sandwich Machine-Image",
+    title: "Bread Toaster/Sandwich Machine",
+    jumiaLink:
+      "https://www.jumia.com.ng/generic-bread-toastersandwich-machine-2-slice-314471112.html",
+  },
+   {
+    src: FoodProcessorBlender,
+    alt: "Food Processor-Yam Pounder/Blender/Grinder-Image",
+    title: "Food Processor-Yam Pounder/Blender/Grinder",
+    jumiaLink:
+      "https://www.jumia.com.ng/6-l-food-processor-yam-pounder-blendergrinderkey-holder-generic-mpg1997484.html",
+  },
+   {
+    src: PortableSteamer,
+    alt: "Portable Handheld Garment Steamer-Image",
+    title: "Portable Handheld Garment Steamer",
+    jumiaLink:
+      "https://www.jumia.com.ng/addigoes-portable-handheld-garment-steamer-1500w-fast-heat-steam-iron-2-in-1-flat-hanging-ironing-300ml-water-tank-wrinkle-remover-for-home-travel-419085498.html",
+  },
+   {
+    src: BorosilicateGlass,
+    alt: "Borosilicate glass, nontoxic, lead-free-Image",
+    title: "Borosilicate glass, nontoxic, lead-free",
+    jumiaLink:
+      "https://www.jumia.com.ng/generic-4pcs-borosilicate-glass-nontoxic-lead-free-and-100-food-safe-glass-freezer-safe-storage-bowls-419886183.html",
+  },
+  //  {
+  //   src: StainlessSteel,
+  //   alt: "Stainless-Steel-Cookware-Image",
+  //   title: "Tri-Ply Set Durable Versatile Stainless Steel Cookware Set",
+  //   jumiaLink:
+  //     "https://www.jumia.com.ng/oraimo-home-tri-ply-set-durable-versatile-stainless-steel-cookware-set-419530024.html",
+  // },
+  //  {
+  //   src: StainlessSteel,
+  //   alt: "Stainless-Steel-Cookware-Image",
+  //   title: "Tri-Ply Set Durable Versatile Stainless Steel Cookware Set",
+  //   jumiaLink:
+  //     "https://www.jumia.com.ng/oraimo-home-tri-ply-set-durable-versatile-stainless-steel-cookware-set-419530024.html",
+  // },
 ];
 
 const GiftPage = () => {
