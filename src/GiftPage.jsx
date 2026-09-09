@@ -104,20 +104,20 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/generic-6-pcs-slim-stemmed-champage-glasses-419274763.html",
   },
-   {
-    src: BreadToaster,
-    alt: "Bread Toaster/Sandwich Machine-Image",
-    title: "Bread Toaster/Sandwich Machine",
-    jumiaLink:
-      "https://www.jumia.com.ng/generic-bread-toastersandwich-machine-2-slice-314471112.html",
-  },
-   {
-    src: FoodProcessorBlender,
-    alt: "Food Processor-Yam Pounder/Blender/Grinder-Image",
-    title: "Food Processor-Yam Pounder/Blender/Grinder",
-    jumiaLink:
-      "https://www.jumia.com.ng/6-l-food-processor-yam-pounder-blendergrinderkey-holder-generic-mpg1997484.html",
-  },
+  //  {
+  //   src: BreadToaster,
+  //   alt: "Bread Toaster/Sandwich Machine-Image",
+  //   title: "Bread Toaster/Sandwich Machine",
+  //   jumiaLink:
+  //     "https://www.jumia.com.ng/generic-bread-toastersandwich-machine-2-slice-314471112.html",
+  // },
+  //  {
+  //   src: FoodProcessorBlender,
+  //   alt: "Food Processor-Yam Pounder/Blender/Grinder-Image",
+  //   title: "Food Processor-Yam Pounder/Blender/Grinder",
+  //   jumiaLink:
+  //     "https://www.jumia.com.ng/6-l-food-processor-yam-pounder-blendergrinderkey-holder-generic-mpg1997484.html",
+  // },
    {
     src: PortableSteamer,
     alt: "Portable Handheld Garment Steamer-Image",
