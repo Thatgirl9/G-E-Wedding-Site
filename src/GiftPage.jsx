@@ -90,13 +90,13 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/premium-glass-cup-set-6-pieces-66108859.html",
   },
-   {
-    src: FoodProcessorSteel,
-    alt: "Food Processor with Stainless Steel Bowl-Image",
-    title: "Food Processor with Stainless Steel Bowl",
-    jumiaLink:
-      "https://www.jumia.com.ng/raf-r.7032-1000w-food-processor-3l-capacity-with-stainless-steel-bowl-418214854.html",
-  },
+  //  {
+  //   src: FoodProcessorSteel,
+  //   alt: "Food Processor with Stainless Steel Bowl-Image",
+  //   title: "Food Processor with Stainless Steel Bowl",
+  //   jumiaLink:
+  //     "https://www.jumia.com.ng/raf-r.7032-1000w-food-processor-3l-capacity-with-stainless-steel-bowl-418214854.html",
+  // },
    {
     src: ChampagneGlass,
     alt: "Slim Stemmed Champagne Glasses-Image",
