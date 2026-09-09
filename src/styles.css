@@ -743,6 +743,12 @@ footer {
 
 @media (min-width: 1000px) {
   .gift-card-section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1280px) {
+  .gift-card-section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
