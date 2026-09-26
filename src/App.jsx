@@ -8,6 +8,8 @@ import RegistrySection from "./Components/RegistrySection";
 import GiftPage from "./GiftPage";
 import Footer from "./Components/Footer";
 import ThankYou from "./Components/ThankYou";
+import GalleryOverview from "./Components/GalleryOverview";
+import GalleryPage from "./GalleryPage";
 
 function Home() {
   return (
@@ -15,6 +17,7 @@ function Home() {
       <Header />
       <main>
         <Hero />
+        <GalleryOverview/>
         <Intro />
         <Countdown />
         <RegistrySection />
@@ -30,6 +33,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/gift" element={<GiftPage />} />
+      <Route path="/gallery" element={<GalleryPage />} />
     </Routes>
   );
 }

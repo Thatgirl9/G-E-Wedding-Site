@@ -15,7 +15,8 @@ const Hero = () => {
       </div>
       <div className="hero-frame">
         <img
-          src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1500&q=90"
+        src="https://res.cloudinary.com/dtqlkvi26/image/upload/v1790421662/IMG_9477.jpg"
+          // src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1500&q=90"
           alt="Wedding couple, Glory and Ese"
         />
         <div className="hero-stamp">

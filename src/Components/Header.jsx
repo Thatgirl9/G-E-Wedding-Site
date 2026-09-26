@@ -8,6 +8,9 @@ const Header = () => {
       </Link>
 
       <nav>
+        <Link className="gift-link" to="/gallery">
+          Gallery
+        </Link>
         <Link className="gift-link" to="/gift">
           Gift Page
         </Link>

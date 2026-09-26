@@ -90,13 +90,7 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/premium-glass-cup-set-6-pieces-66108859.html",
   },
-  //  {
-  //   src: FoodProcessorSteel,
-  //   alt: "Food Processor with Stainless Steel Bowl-Image",
-  //   title: "Food Processor with Stainless Steel Bowl",
-  //   jumiaLink:
-  //     "https://www.jumia.com.ng/raf-r.7032-1000w-food-processor-3l-capacity-with-stainless-steel-bowl-418214854.html",
-  // },
+ 
    {
     src: ChampagneGlass,
     alt: "Slim Stemmed Champagne Glasses-Image",
@@ -104,20 +98,7 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/generic-6-pcs-slim-stemmed-champage-glasses-419274763.html",
   },
-  //  {
-  //   src: BreadToaster,
-  //   alt: "Bread Toaster/Sandwich Machine-Image",
-  //   title: "Bread Toaster/Sandwich Machine",
-  //   jumiaLink:
-  //     "https://www.jumia.com.ng/generic-bread-toastersandwich-machine-2-slice-314471112.html",
-  // },
-  //  {
-  //   src: FoodProcessorBlender,
-  //   alt: "Food Processor-Yam Pounder/Blender/Grinder-Image",
-  //   title: "Food Processor-Yam Pounder/Blender/Grinder",
-  //   jumiaLink:
-  //     "https://www.jumia.com.ng/6-l-food-processor-yam-pounder-blendergrinderkey-holder-generic-mpg1997484.html",
-  // },
+ 
    {
     src: PortableSteamer,
     alt: "Portable Handheld Garment Steamer-Image",
@@ -132,20 +113,7 @@ const registryItems = [
     jumiaLink:
       "https://www.jumia.com.ng/generic-4pcs-borosilicate-glass-nontoxic-lead-free-and-100-food-safe-glass-freezer-safe-storage-bowls-419886183.html",
   },
-  //  {
-  //   src: StainlessSteel,
-  //   alt: "Stainless-Steel-Cookware-Image",
-  //   title: "Tri-Ply Set Durable Versatile Stainless Steel Cookware Set",
-  //   jumiaLink:
-  //     "https://www.jumia.com.ng/oraimo-home-tri-ply-set-durable-versatile-stainless-steel-cookware-set-419530024.html",
-  // },
-  //  {
-  //   src: StainlessSteel,
-  //   alt: "Stainless-Steel-Cookware-Image",
-  //   title: "Tri-Ply Set Durable Versatile Stainless Steel Cookware Set",
-  //   jumiaLink:
-  //     "https://www.jumia.com.ng/oraimo-home-tri-ply-set-durable-versatile-stainless-steel-cookware-set-419530024.html",
-  // },
+ 
 ];
 
 const GiftPage = () => {
