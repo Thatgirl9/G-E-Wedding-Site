@@ -17,10 +17,10 @@ function Home() {
       <Header />
       <main>
         <Hero />
-        <GalleryOverview/>
         <Intro />
         <Countdown />
         <RegistrySection />
+        <GalleryOverview/>
         <ThankYou />
       </main>
       <Footer />

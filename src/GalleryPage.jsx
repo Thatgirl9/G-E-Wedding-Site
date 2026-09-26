@@ -1,5 +1,5 @@
 import React from "react";
-import "./GalleryPage.css";
+// import "./GalleryPage.css";
 import Header from "./Components/Header";
 
 const galleryImages = [
@@ -195,7 +195,7 @@ const GalleryPage = () => {
     <main className="gallery-page-section">
       <Header />
       <section className="gallery-page">
-        <div className="section-heading centered">
+        <div className="section-heading centered page">
           <p className="eyebrow">A FEW OF OUR FAVOURITE MOMENTS</p>
           <h2>
             Our story,
